@@ -86,3 +86,12 @@ header .navbar ul li a:hover{
     color: #555;
     transition: none; 
 }
+.container{
+    width: 90rem;
+    height: 64rem;
+    background: rgba(255, 255, 255, .2);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .3);
+    backdrop-filter: blur(.4rem);
+    border-radius: 1rem;
+    overflow: hidden;
+}
