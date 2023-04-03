@@ -23,3 +23,22 @@ body{
     background: linear-gradient(rgb(20, 228, 255), rgb(0, 58, 128));
     padding: 5.5rem;
 }
+section{
+    padding: 1rem 7%;
+    min-height: 100%;
+}
+.btn{
+    font-size: 2rem;
+    padding: 1rem 4rem;                                    /* from 7rem 4rem change to padding: 1rem 4rem; */
+    background: rgba(255, 255, 255, .2);
+    color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: .2s linear;
+}
+.btn:hover{
+    background: rgba(255, 255, 255, .5);
+    color: #555;
+}
