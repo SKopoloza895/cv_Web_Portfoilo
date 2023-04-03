@@ -207,3 +207,55 @@ header .navbar ul li a:hover{
     padding: 1rem;
     color: #fff;
 }
+/* ----------------------------
+Experience Section
+---------------------------- */
+
+.experience .box-container{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+.experience .box-container .box{
+    width: 32rem;
+    padding: 0 2rem;
+    padding-bottom: 4rem;
+    border-left: .2rem solid #eee;
+}
+.experience .box-container .box .year{
+    font-size: 2rem;
+    color: #eee;
+    position: relative;
+}
+.experience .box-container .box .year::before{
+    content: '';
+    position: absolute;
+    /* change from top: 3rem to .5rem */
+    top: .5rem; left: -3.1rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: #fff;
+}
+.experience .box-container .box h3{
+    font-size: 2rem;
+    color: #fff;
+    padding-top: 1rem;
+}
+.experience .box-container .box h2{
+    font-size: 1.5rem;
+    color: #fff;
+    padding-top: 1rem;
+}
+.experience .box-container .box h1{
+    font-size: 1.2rem;
+    color: #fff;
+    padding-top: .5rem;
+}
+.experience .box-container .box p{
+    font-size: 1.3rem;
+    color: #eee;
+    padding: 1rem 0;
+}
