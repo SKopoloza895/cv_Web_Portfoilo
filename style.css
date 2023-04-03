@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-weight: normal;
+    /* transition: all .2s linear; */
+}
+html{
+    font-size: 62.5%;
+    overflow: hidden;
+}
+body{
+    overflow: hidden;
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background: linear-gradient(rgb(20, 228, 255), rgb(0, 58, 128));
+    padding: 5.5rem;
+}
