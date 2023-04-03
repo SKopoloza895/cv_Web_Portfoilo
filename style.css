@@ -201,3 +201,9 @@ header .navbar ul li a:hover{
 .about .skills .progress:nth-child(4) .bar span{
     width: 65%;
 }
+.heading{
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem;
+    color: #fff;
+}
